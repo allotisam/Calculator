@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		690F90861EA3EA7100D33CB1 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690F90851EA3EA7100D33CB1 /* CalculatorBrain.swift */; };
 		69CBD6C81EA2E0F4008B068B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CBD6C71EA2E0F4008B068B /* AppDelegate.swift */; };
 		69CBD6CA1EA2E0F4008B068B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CBD6C91EA2E0F4008B068B /* ViewController.swift */; };
 		69CBD6CD1EA2E0F4008B068B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69CBD6CB1EA2E0F4008B068B /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		690F90851EA3EA7100D33CB1 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 		69CBD6C41EA2E0F4008B068B /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69CBD6C71EA2E0F4008B068B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69CBD6C91EA2E0F4008B068B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 		69CBD6C61EA2E0F4008B068B /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				690F90851EA3EA7100D33CB1 /* CalculatorBrain.swift */,
 				69CBD6C91EA2E0F4008B068B /* ViewController.swift */,
 				69CBD6CB1EA2E0F4008B068B /* Main.storyboard */,
 				69CBD6D91EA2E35C008B068B /* Supporting Files */,
@@ -145,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				690F90861EA3EA7100D33CB1 /* CalculatorBrain.swift in Sources */,
 				69CBD6CA1EA2E0F4008B068B /* ViewController.swift in Sources */,
 				69CBD6C81EA2E0F4008B068B /* AppDelegate.swift in Sources */,
 			);
@@ -310,6 +314,7 @@
 				69CBD6D81EA2E0F4008B068B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
